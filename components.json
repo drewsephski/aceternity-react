@@ -17,5 +17,11 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "iconLibrary": "lucide"
+  "iconLibrary": "lucide",
+  "imports": {
+    "@/components/ui/**": {
+      "as": "ui",
+      "from": "@/components/ui"
+    }
+  }
 }
